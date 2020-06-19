@@ -1,0 +1,33 @@
+.u {
+  &-spacer {
+    &--2x {
+      margin: 4px;
+      &-v {
+        margin: 4px 0px !important;
+      }
+    }
+    &--4x {
+      margin: 8px;
+      &-v {
+        margin: 8px 0px !important;
+      }
+    }
+    &--5x {
+      margin: 10px !important;
+    }
+  }
+  &-cushion {
+    &--10x {
+      padding: 20px;
+      &-v{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+  &-text {
+    &__gray {
+      color: #666;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.c-tabs {
+  &--nav{
+    background-color: #fff;
+    border-bottom: 1px solid #d1d5da;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(209, 213, 218);
+    box-shadow: none;
+    a {
+      padding: 16px 8px;
+      margin-right: 16px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #586069;
+      text-align: center;
+      white-space: nowrap;
+      background-color: initial;
+      line-height: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+  }
+}

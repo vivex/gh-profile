@@ -1,0 +1,51 @@
+.c-profile {
+  &--avatar {
+    display: inline-block;
+    width: 100%;
+    border-radius: 6px;
+  }
+}
+
+.c-project-card {
+  border-bottom: 1px solid #e1e4e8;
+  h3 {
+    margin: 0px;
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+  }
+
+  &__sub_heading{
+    color: #586069;
+    font-size: 12px;
+  }
+  p {
+    margin: 0px;
+  }
+}
+
+.c-profile-card {
+  &__sub_heading {
+    font-weight: 300;
+  }
+  &__large_btn {
+    color: #24292e;
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: .25em;
+    &:hover {
+      background-color: #e6ebf1;
+      background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);
+      background-position: -.5em;
+      border-color: rgba(27,31,35,.35);
+    }
+  }
+}
